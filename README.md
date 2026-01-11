@@ -1,19 +1,19 @@
-# 🖤 Brutalismo Digital — Portafolio
+# Brutalismo Digital — Portafolio
 
 ![Hero Screenshot](public/screenshots/screencapture.png)
 
 Portafolio personal desarrollado con **Next.js** + **Tailwind CSS** y animaciones **Framer Motion**, con estética **neubrutalista** inspirada en diseño editorial suizo.  
 Incluye secciones de presentación, proyectos destacados, tecnologías, contacto funcional y microinteracciones basadas en scroll.
 
-## 🚀 Características
+## Características
 
-- 🎨 **Estética brutalista**: monocromo con acentos, tipografía editorial y sombras duras.
-- ⚡ **Animaciones suaves** con [Framer Motion](https://www.framer.com/motion/) y efectos `whileInView`.
-- 🖥 **Diseño responsive** mobile-first, optimizado para todos los tamaños de pantalla.
-- 🧱 **Arquitectura modular**: componentes desacoplados y reutilizables.
-- 📜 **Formulario de contacto funcional** con validación en cliente/servidor y envío vía Resend o SMTP.
-- 🖼 **Optimización de imágenes** con `next/image` y carga progresiva.
-- ♿ **Accesibilidad**: etiquetas ARIA, focus states visibles, contraste alto.
+- **Estética brutalista**: monocromo con acentos, tipografía editorial y sombras duras.
+- **Animaciones suaves** con [Framer Motion](https://www.framer.com/motion/) y efectos `whileInView`.
+- **Diseño responsive** mobile-first, optimizado para todos los tamaños de pantalla.
+- **Arquitectura modular**: componentes desacoplados y reutilizables.
+- **Formulario de contacto funcional** con validación en cliente/servidor y envío vía Resend o SMTP.
+- **Optimización de imágenes** con `next/image` y carga progresiva.
+- **Accesibilidad**: etiquetas ARIA, focus states visibles, contraste alto.
 
 ## 🛠 Stack técnico
 
@@ -25,7 +25,7 @@ Incluye secciones de presentación, proyectos destacados, tecnologías, contacto
 - **Email:** [Resend](https://resend.com/) o [Nodemailer](https://nodemailer.com/)
 - **Tipografía:** [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) y [Inter](https://fonts.google.com/specimen/Inter) vía `next/font`
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 app/
 ├─ api/
@@ -83,7 +83,7 @@ npm run dev
 
 La app estará disponible en [http://localhost:3000](http://localhost:3000).
 
-## 📤 Despliegue
+## Despliegue
 
 Compatible con [Vercel](https://vercel.com/) (recomendado) y cualquier entorno que soporte Next.js.
 
@@ -93,7 +93,7 @@ Compatible con [Vercel](https://vercel.com/) (recomendado) y cualquier entorno q
 - Añade las variables de entorno en el panel de Vercel.
 - Haz deploy y Vercel gestionará la compilación y CDN de assets.
 
-## 🧪 Contacto y pruebas
+## Contacto y pruebas
 
 Para probar el formulario de contacto:
 
@@ -101,11 +101,11 @@ Para probar el formulario de contacto:
 - Revisa el email configurado en `CONTACT_TO`.
 - En entorno de desarrollo, la API simulará un envío (puedes ver logs en consola).
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo licencia MIT.
 Puedes usarlo, modificarlo y distribuirlo libremente, manteniendo la atribución.
 
-## ✨ Autor
+## Autor
 
 Desarrollado por [Oslar](https://oslarcode.es/) — Diseño y desarrollo web brutalista.
